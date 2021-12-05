@@ -7,3 +7,4 @@ arg = ARGV[1]
 
 app = Yaru::App.new cmd, arg
 app.start
+
