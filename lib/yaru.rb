@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require "json"
 require_relative "yaru/version"
 require_relative "yaru/help"
 require_relative "yaru/add"
