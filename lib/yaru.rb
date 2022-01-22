@@ -4,8 +4,6 @@ require "json"
 require_relative "yaru/version"
 require_relative "yaru/help"
 require_relative "yaru/add"
-require_relative "yaru/item"
-require_relative "yaru/store"
 require_relative "yaru/list"
 
 class Yaru
