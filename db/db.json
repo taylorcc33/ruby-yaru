@@ -6,5 +6,9 @@
   {
     "title": "homeowork",
     "complete": false
+  },
+  {
+    "title": "appointment",
+    "complete": false
   }
 ]
