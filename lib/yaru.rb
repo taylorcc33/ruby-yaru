@@ -19,7 +19,7 @@ class Yaru
     when nil, "help", "h"
       display_help
     when "a", "add"
-
+      add(@arg)
     when "l", "list"
       list
     end
