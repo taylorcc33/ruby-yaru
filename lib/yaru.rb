@@ -7,23 +7,22 @@ require_relative "yaru/add"
 require_relative "yaru/item"
 require_relative "yaru/store"
 
-module Yaru
-  class App
-    def initialize(cmd, arg)
-      @cmd = cmd
-      @arg = arg
+class Yaru
+  def initialize(cmd, arg)
+    @cmd = cmd
+    @arg = arg
 
-      @store = Yaru::Store.new
-    end
+    # @store = Yaru::Store.new
+  end
 
-    def start
-      case @cmd
-      when nil, "help", "h"
-        display_help
-      when "a", "add"
-        new_item = Yaru::Item.new(@arg)
-        @store.add(new_item)
-      end
+  def start
+    case @cmd
+    when nil, "help", "h"
+      display_help
+    when "a", "add"
+
+    when "l", "list"
+      list
     end
   end
 end

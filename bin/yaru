@@ -5,6 +5,6 @@ require_relative "../lib/yaru"
 cmd = ARGV[0]
 arg = ARGV[1]
 
-app = Yaru::App.new cmd, arg
+app = Yaru.new cmd, arg
 app.start
 
