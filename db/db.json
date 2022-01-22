@@ -1,1 +1,6 @@
-[{"title":"groceries","complete":false},{"title":"homeowork","complete":false},{"title":"appointment","complete":false},{"title":"hello","complete":false}]
+[
+  { "title": "groceries", "complete": false },
+  { "title": "homework", "complete": false },
+  { "title": "appointment", "complete": false },
+  { "title": "hello", "complete": false }
+]
